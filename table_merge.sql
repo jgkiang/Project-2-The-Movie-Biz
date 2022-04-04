@@ -4,7 +4,7 @@ create table oscar_filter (
 	numbest int,
 	year_film int,
 	category varchar,
-	film varchar,
+	film varchar primary key,
 	winner boolean
 );
 
@@ -14,7 +14,7 @@ drop table omdb_api;
 
 create table omdb_api(
 	numbest int,
-	title varchar,
+	title varchar primary key,
 	boxoffice varchar,
 	imdbrating decimal,
 	metascore int
@@ -26,5 +26,3 @@ select oscar_filter.film, omdb_api.boxoffice, omdb_api.imdbrating, omdb_api.meta
 from oscar_filter
 inner join omdb_api on
 oscar_filter.film = omdb_api.title
-
-
