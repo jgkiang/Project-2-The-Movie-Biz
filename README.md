@@ -7,10 +7,8 @@ We want to explore the relationship between movie Metacritic scores and box offi
 <h3>EXTRACT</h3>
 
 Our data sources are:
-
-Kaggle - We found a csv that included info on all the Oscar winners and nominees.
-
-OMDB - We used the OMDB API to obtain box office data and metascores for each film.
+- Kaggle - We found a csv that included info on all the Oscar winners and nominees.
+- OMDB - We used the OMDB API to obtain box office data and metascores for each film.
 
 <h3>TRANSFORM</h3>
 
