@@ -2,7 +2,7 @@
 
 PROPOSAL
 
-We intend to determine how much an Oscar win or nomination effects future theatrical box office numbers.  And have these numbers been impacted by the decreasing popularity of awards shows over time?  We may also explore the effect of critic ratings (from IMDB or MetaCritic) and whether there is any correlation between those ratings and Oscar wins and/or box office numbers.
+We want to explore the relationship between movie Metacritic scores and box office numbers / Oscar nominations and wins. Is there any correlation between a film's score and how much money they make? And can the score even predict an Oscar win?
 
 EXTRACT
 
@@ -14,11 +14,11 @@ OMDB - We used the OMDB API to obtain box office data and metascores for each fi
 
 TRANSFORM
 
-For the Oscar csv file, we had to filter only the Best Picture winners and nominees from 2001 to 2019. (The reason for this timeframe is because Metacritic was launched in 2001.)
+For the Oscar csv file, we used only the Best Picture winners and nominees from 2001 to 2019. (The reason for this timeframe is because Metacritic was launched in 2001.)  This involved dropping the other categories (Best Director, Best Actor, etc.) and years (1921-2000).
 
-Then to obtain box office and Metascore information, we took data from the OMDB API and converted that into a CSV. 
+Then to obtain box office and Metascore information, we took data from the OMDB API (using the Oscar nominees and winners from the previous CSV) and converted that into a new CSV. 
 
-Finally, we merged the two dataframes together to give us data that could be loaded into our final database.
+Finally, we merged the two dataframes together to give us data that could be loaded into our final database.  For our 
 
 LOAD
 
