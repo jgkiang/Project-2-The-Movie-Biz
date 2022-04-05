@@ -26,7 +26,7 @@ The data that we extracted and cleaned was then loaded into a Postgres database.
 
 ANALYSIS
 
-![MetacriticScore_BoxOffice](Data/metascore_box office.png)
+![metascore_box office](Data/metascore_box office.png)
 
 
 What we discovered is that for the Oscar nominees and winners (2001-2019), the films with the lower critic scores made more money at the box office.
