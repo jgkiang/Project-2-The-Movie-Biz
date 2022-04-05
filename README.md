@@ -18,11 +18,11 @@ Then to obtain box office and Metascore information, we took data from the OMDB 
 
 Finally, we merged the two dataframes into a single dataset, from which we were able to extract our tables and graphs (see final results.ipynb). 
 
-LOAD
+<h3>LOAD</h3>
 
 The data that we extracted and cleaned was then loaded into a Postgres database.
 
-ANALYSIS
+<h3>ANALYSIS</h3>
 
 
 
