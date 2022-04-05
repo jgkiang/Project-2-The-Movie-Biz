@@ -7,7 +7,9 @@ We intend to determine how much an Oscar win or nomination effects future theatr
 EXTRACT
 
 Our data sources are:
+
 Kaggle - We found a csv that included info on all the Oscar winners and nominees.
+
 OMDB - We used the OMDB API to obtain box office data and metascores for each film.
 
 TRANSFORM
