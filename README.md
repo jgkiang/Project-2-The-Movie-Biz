@@ -4,7 +4,7 @@
 
 We want to explore the relationship between movie Metacritic scores and box office numbers / Oscar nominations and wins. Is there any correlation between a film's score and how much money they make? And can the score even predict an Oscar win?
 
-EXTRACT
+<h3>EXTRACT</h3>
 
 Our data sources are:
 
@@ -12,7 +12,7 @@ Kaggle - We found a csv that included info on all the Oscar winners and nominees
 
 OMDB - We used the OMDB API to obtain box office data and metascores for each film.
 
-TRANSFORM
+<h3>TRANSFORM</h3>
 
 For the Oscar csv file, we used only the Best Picture winners and nominees from 2001 to 2019. (The reason for this timeframe is because Metacritic was launched in 2001.)  This involved dropping the other categories (Best Director, Best Actor, etc.) and years (1921-2000).
 
