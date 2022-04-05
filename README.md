@@ -2,6 +2,8 @@
 
 PROPOSAL
 
+<h1>h1 heading</h1>
+
 We want to explore the relationship between movie Metacritic scores and box office numbers / Oscar nominations and wins. Is there any correlation between a film's score and how much money they make? And can the score even predict an Oscar win?
 
 EXTRACT
