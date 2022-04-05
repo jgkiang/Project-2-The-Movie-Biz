@@ -22,6 +22,7 @@ Finally, we merged the two dataframes together to give us data that could be loa
 
 LOAD
 
+The data that we extracted and cleaned was then loaded into a Postgres database.
 
 ANALYSIS
 
