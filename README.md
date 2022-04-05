@@ -27,6 +27,7 @@ The data that we extracted and cleaned was then loaded into a Postgres database.
 
 
 Metacritic Score vs Box Office ($)
+> This is a sample BlockQuote
 ![metascore_box office](/Data/metascore_box%20office.png)
 
 What we discovered is that for the Oscar nominees and winners (2001-2019), the films with the lower critic scores "generally" made more money at the box office. Although the r-squared value does not indicate a strong relationship between Metacritic scores and box office value, the line of best fit does indicate a weak, negative correlation, meaning that as the Metacritic score decreases, the box office earnings tend to increase. 
