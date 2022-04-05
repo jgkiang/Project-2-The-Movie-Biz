@@ -28,5 +28,7 @@ ANALYSIS
 
 ![metascore_box office](/Data/metascore_box%20office.png)
 
+![metascore_oscar](metascore_oscar%20winners.png)
+
 
 What we discovered is that for the Oscar nominees and winners (2001-2019), the films with the lower critic scores made more money at the box office.
